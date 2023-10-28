@@ -12,7 +12,7 @@ import Themes from "./components/Themes";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/indracit.dev">
     <NavBar />
     <Themes/>
       <Routes>
