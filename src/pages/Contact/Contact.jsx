@@ -1,12 +1,15 @@
 import {
-  FaPhoneSquareAlt,
-  FaFacebookF,
+  // FaPhoneSquareAlt,
+  // FaFacebookF,
   FaTwitter,
-  FaYoutube,
-  FaEnvelopeOpen
+  // FaYoutube,
+  FaEnvelopeOpen,
+  FaGithub,
+  FaInstagram,
+  FaLinkedin
 } from "react-icons/fa";
 
-import { FiSend } from "react-icons/fi";
+// import { FiSend } from "react-icons/fi";
 import "./contact.css";
 
 const Contact = () => {
@@ -18,14 +21,14 @@ const Contact = () => {
 
       <div className="contact__container container grid">
         <div className="contact__data">
-          <h3 className="contact__title">Don't be Shy !</h3>
+          {/* <h3 className="contact__title">Don't be Shy !</h3>
 
           <p className="contact__description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, ex
             facere veniam id incidunt itaque omnis ipsa, consequuntur sed
             assumenda impedit atque autem architecto error voluptatem nihil!
             Obcaecati voluptatum reprehenderit officia vero, consequatur beatae
-          </p>
+          </p> */}
 
           <div className="contact__info">
 
@@ -33,36 +36,39 @@ const Contact = () => {
               <FaEnvelopeOpen className="info__icon" />
 
               <div>
-                <span className="info__title">Mail me</span>
-                <h4 className="desc">thealireza.am@yahoo.com</h4>
+                <span className="info__title">Write me</span>
+                <h4 className="desc">Indrajithij802@gmail.com</h4>
               </div>
             </div>
 
-            <div className="info__item">
+            {/* <div className="info__item">
               <FaPhoneSquareAlt className="info__icon" />
 
               <div>
                 <span className="info__title">Call me</span>
                 <h4 className="desc">+989059616630</h4>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div className="contact__socials">
-            <a href="https://github.com" className="contact__social-link">
-              <FaFacebookF />
+            <a href="https://github.com/indracit" className="contact__social-link">
+              <FaGithub />
             </a>
-            <a href="https://github.com" className="contact__social-link">
-              <FaTwitter />
+            <a href="https://www.linkedin.com/in/indracits/" className="contact__social-link">
+              <FaLinkedin />
             </a>
-            <a href="https://github.com" className="contact__social-link">
-              <FaYoutube />
+            <a href="https://www.instagram.com/indrajith.sivasamy/" className="contact__social-link">
+              <FaInstagram />
             </a>
             <div />
           </div>
         </div>
 
-        <form className="contact__form">
+
+        
+
+        {/* <form className="contact__form">
           <div className="form__input-group">
             <div className="form__input-div">
               <input
@@ -101,7 +107,7 @@ const Contact = () => {
               <FiSend />
             </span>
           </button>
-        </form>
+        </form> */}
       </div>
     </section>
   );

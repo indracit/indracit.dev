@@ -7,7 +7,7 @@ import NavBar from "./components/Nav";
 import Home from "./pages/Home";
 import About from "./pages/About";
 // import Portfolio from "./pages/Portfolio";
-// import Contact from "./pages/Contact";
+import Contact from "./pages/Contact";
 import Themes from "./components/Themes";
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
         <Route index path='indracit.dev' element={<Home />} />
         <Route path="about" element={<About />} />
         {/* <Route path="portfolio" element={<Portfolio />} /> */}
-        {/* <Route path="contact" element={<Contact />} /> */}
+        <Route path="contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   );

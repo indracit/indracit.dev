@@ -50,12 +50,12 @@ export const links = [
   //   path: '/portfolio',
   // },
 
-  // {
-  //   id: 4,
-  //   name: 'Contact',
-  //   icon: <FaEnvelopeOpen className='nav__icon' />,
-  //   path: '/contact',
-  // },
+  {
+    id: 4,
+    name: 'Contact',
+    icon: <FaEnvelopeOpen className='nav__icon' />,
+    path: '/contact',
+  },
 ];
 
 export const personalInfo = [
