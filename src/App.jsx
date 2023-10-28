@@ -16,7 +16,7 @@ function App() {
     <NavBar />
     <Themes/>
       <Routes>
-        <Route path='indracit.dev' element={<Home />} />
+        <Route index path='indracit.dev' element={<Home />} />
         <Route path="about" element={<About />} />
         {/* <Route path="portfolio" element={<Portfolio />} /> */}
         {/* <Route path="contact" element={<Contact />} /> */}
